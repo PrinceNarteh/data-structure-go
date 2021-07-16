@@ -1,4 +1,4 @@
-package main
+package binarysearch
 
 // Node represents the components of a binary search tree
 type Node struct {

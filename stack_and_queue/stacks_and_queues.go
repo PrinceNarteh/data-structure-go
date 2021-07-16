@@ -1,4 +1,4 @@
-package main
+package stackandqueue
 
 // Stack represents stack that holds a slice
 type Stack struct {
