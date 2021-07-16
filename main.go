@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"./heap"
+)
 
 func main() {
-	maxHeap := &MaxHeap{}
+	maxHeap := &heap.MaxHeap{}
 	fmt.Println(maxHeap)
 
 	buildHeap := []int{10, 20, 30, 40, 50, 60, 70, 80, 90}
